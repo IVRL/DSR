@@ -1,4 +1,3 @@
-<<<<<<< 23a173b06c77b2dc61bd98fb57c7bb7c1081cdf8
 # DSR: Towards Drone Image Super-Resolution
 ![Python 3.8.13](https://img.shields.io/badge/python-3.8-blue.svg) 
 ![pytorch 1.7.1](https://img.shields.io/badge/pytorch-1.7.1-orange.svg)
@@ -121,7 +120,6 @@ The detailed architecture of our AA-SwinIR is shown in the figure below.
 
 This code is built on [torchSR](https://github.com/Coloquinte/torchSR). 
 We thank the authors for sharing their codes.
-=======
+
 # DSR
 (Under submission) Towards Drone Image Super-Resolution
->>>>>>> Initial commit
