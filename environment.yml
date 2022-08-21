@@ -1,0 +1,4 @@
+name: dronesp
+channels:
+  - defaults
+prefix: /home/xlin/.conda/envs/dronesp
