@@ -3,8 +3,8 @@
 ![pytorch 1.7.1](https://img.shields.io/badge/pytorch-1.7.1-orange.svg)
 ![CUDA 10.1](https://img.shields.io/badge/cuda-10.1-green.svg)
 
+#### [[Paper]](https://arxiv.org/abs/2208.12327) - [[Supplementary]](https://github.com/IVRL/DSR/supp.pdf) - [[Dataset]](https://datasets.epfl.ch/dsr/index.html)
 
-#### [[Paper]](https://arxiv.org/abs/2208.12327) - [[Supplementary]](https://github.com/IVRL/DSR) - [[Dataset]](https://datasets.epfl.ch/dsr/index.html)
 
 > **Abstract:**
 *Despite achieving remarkable progress in recent years, single-image super-resolution methods are developed with artificial limitations.
@@ -33,7 +33,7 @@ We additionally show that simple fine-tuning, and incorporating altitude awarene
 
 We create our DSR dataset by capturing image pairs of the same scene with different focal length values. 
 We take photos at ten different altitudes for each scene. 
-Our altitude values form the set \{10, 20, 30, 40, 50, 70, 80, 100, 120, 140\}$m$, 
+Our altitude values form the set {10, 20, 30, 40, 50, 70, 80, 100, 120, 140}m, 
 which is chosen in such a way as to have good sampling across altitudes, 
 various altitudes that are multiples of each other, 
 and to span a large range of altitudes that are relevant for drone applications.
@@ -82,7 +82,7 @@ To quantitatively explore the effects of altitude, we evaluate separately on eac
 
 `python -m src.train --arch edsr --scale 50/9 --validation-only --download-pretrained --dataset-val dronesr_jpg --val-altitudes 10 --patch-size-val 1000 --eval-luminance --post-resize`
 
-*To bechmark on different altitudes, change the values of '--val-altitudes', which takes values in \{10, 20, 30, 40, 50, 70, 80, 100, 120, 140\}.*
+*To bechmark on different altitudes, change the values of '--val-altitudes', which takes values in \{10, 20, 30, 40, 50, 70, 80, 100, 120, 140\}m.*
 
 ### Fine-tuned SR methods
 
@@ -113,9 +113,15 @@ The detailed architecture of our AA-SwinIR is shown in the figure below.
 
 ## Citation
 ```bibtex
+@inproceedings{lin2022dsr,
+    title     = {{DSR}: Towards Drone Image Super-Resolution},
+    author    = {Lin, Xiaoyu and Ozaydin, Baran and Vidit, Vidit and El Helou, Majed and S{\"u}sstrunk, Sabine},
+    booktitle = {European Conference on Computer Vision Workshops},
+    year      = {2022}
+}
 ```
 
 ## Acknowledgements
 
-This code is built on [torchSR](https://github.com/Coloquinte/torchSR). 
-We thank the authors for sharing their codes.
+This code repository builds on [torchSR](https://github.com/Coloquinte/torchSR). 
+We thank the authors for sharing their code.
