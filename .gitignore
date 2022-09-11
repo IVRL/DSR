@@ -127,7 +127,6 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
-<<<<<<< 23a173b06c77b2dc61bd98fb57c7bb7c1081cdf8
 
 # VS code
 .vscode/
@@ -146,5 +145,6 @@ debug.ipynb
 
 # example images
 /visualization
-=======
->>>>>>> Initial commit
+
+# env
+.env.local

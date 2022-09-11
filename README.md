@@ -4,7 +4,7 @@
 ![CUDA 10.1](https://img.shields.io/badge/cuda-10.1-green.svg)
 
 
-#### [[Paper]](https://github.com/IVRL/DSR) - [[Supplementary]](https://github.com/IVRL/DSR) - [[Dataset]](https://github.com/IVRL/DronePrivate/DroneSR-X7)
+#### [[Paper]](https://arxiv.org/abs/2208.12327) - [[Supplementary]](https://github.com/IVRL/DSR) - [[Dataset]](https://datasets.epfl.ch/dsr/index.html)
 
 > **Abstract:**
 *Despite achieving remarkable progress in recent years, single-image super-resolution methods are developed with artificial limitations.
