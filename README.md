@@ -3,7 +3,7 @@
 ![pytorch 1.7.1](https://img.shields.io/badge/pytorch-1.7.1-orange.svg)
 ![CUDA 10.1](https://img.shields.io/badge/cuda-10.1-green.svg)
 
-#### [[Paper]](https://arxiv.org/abs/2208.12327) - [[Supplementary]](https://github.com/IVRL/DSR/supp.pdf) - [[Dataset]](https://datasets.epfl.ch/dsr/index.html)
+#### [[Paper]](https://arxiv.org/abs/2208.12327) - [[Supplementary]](supp.pdf) - [[Dataset]](https://datasets.epfl.ch/dsr/index.html)
 
 
 > **Abstract:**
@@ -118,6 +118,12 @@ The detailed architecture of our AA-SwinIR is shown in the figure below.
     author    = {Lin, Xiaoyu and Ozaydin, Baran and Vidit, Vidit and El Helou, Majed and S{\"u}sstrunk, Sabine},
     booktitle = {European Conference on Computer Vision Workshops},
     year      = {2022}
+}
+@article{lin2022towards,
+  title={Towards Robust Drone Vision in the Wild},
+  author={Lin, Xiaoyu},
+  journal={arXiv preprint arXiv:2208.12655},
+  year={2022}
 }
 ```
 
