@@ -45,9 +45,9 @@ and to span a large range of altitudes that are relevant for drone applications.
 
 The dataset is split into three sets for training, validation, and testing, 
 while ensuring that no overlaps exist between any of the sets. 
-The split information is saved in  [`train_valid_test_split.json`](datasets/DSR/train_valid_test_split.json)
+The split information is saved in  [`train_valid_test_split.json`](https://datasets.epfl.ch/dsr/train_valid_test_split.json)
 
-**The implementation of data preprocessing and registration is provided [here](https://github.com/IVRL/DronePrivate/tree/main/DroneSR-X7).**
+**The implementation of data preprocessing and registration is provided [here](/dataset).**
 
 ## Model training and testing
 We benchmark state-of-the-art methods on DSR. 
