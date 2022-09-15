@@ -26,8 +26,7 @@ We additionally show that simple fine-tuning, and incorporating altitude awarene
 - [Acknowledgements](#acknowledgements)
 
 ## Requirements
-- Python 3.8, PyTorch 1.7.1;
-- Other common packages listed in [`environment.yml`](environment.yml).
+- Python 3.8, PyTorch 1.7.1.
 
 ## DSR Dataset
 
